@@ -2,12 +2,12 @@ import random
 from tkinter import *
 
 def fonk():
-    x = random.randint(1, 90)
-    q = random.randint(1, 90)
-    w = random.randint(1, 90)
-    e = random.randint(1, 90)
-    r = random.randint(1, 90)
-    t = random.randint(1, 90)
+    x = random.randint(1,90)
+    q = random.randint(1,90)
+    w = random.randint(1,90)
+    e = random.randint(1,90)
+    r = random.randint(1,90)
+    t = random.randint(1,90)
     numara1.set(x)
     numara2.set(q)
     numara3.set(w)
