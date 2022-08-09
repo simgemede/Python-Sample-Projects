@@ -56,3 +56,12 @@ entry4.config(state="readonly")
 entry5 = Entry(frame1,textvariable=numara6,bd=20,insertwidth=1,font=("Arial", 30), justify='center', width=4)
 entry5.pack(side=LEFT)
 entry5.config(state="readonly")
+
+frame3 = Frame(pencere)
+frame3.pack(side=TOP)
+buton1 = Button(frame3,state=DISABLED,text="")
+buton1.pack(side=TOP)
+buton1 = Button(frame3, padx=8, width=18, pady=8, bd=8, font=("Arial", 26), text="Rastgele Sayı Üret", bg="black",fg="white", command=fonk)
+buton1.pack(side=TOP)
+
+pencere.mainloop()
