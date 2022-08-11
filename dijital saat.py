@@ -2,7 +2,7 @@ from time import strftime
 from tkinter import Label, Tk
 
 pencere = Tk()
-pencere.title("")
+pencere.title("Dijital Saat")
 pencere.geometry("200x80")
 pencere.resizable(False, False)
 
