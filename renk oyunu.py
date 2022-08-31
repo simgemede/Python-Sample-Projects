@@ -42,7 +42,8 @@ talimat = tkinter.Label(pencere,text="Renk girin.",
                         font=("Arial",12,"bold"))
 talimat.pack()
 
-skor_label = tkinter.Label(pencere,text="Başlamak için enter tuşlarına basın")
+skor_label = tkinter.Label(pencere,text="Başlamak için enter tuşuna
+ basın")
 skor_label.pack()
 
 zaman_label = tkinter.Label(pencere,text="Kalan zaman:"+str(kalan_sure),font=("Arial",12))
