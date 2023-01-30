@@ -47,7 +47,7 @@ def zaman_ekle():
     else:
         pass
 
-baslik = tkinter.Label(pencere, text="Başlık", fg="black", font="bold")
+baslik = tkinter.Label(pencere, text="Kitap Adı", fg="black", font="bold")
 baslik.place(x=20, y=10)
 
 baslik_entry = tkinter.Text(pencere, bd=5, height=1, width=82, bg="black", fg="white")
