@@ -32,3 +32,6 @@
 
 11.
 ![188962567-97a71972-f282-4c0a-a70b-22d914a68f55](https://user-images.githubusercontent.com/109466550/215353298-d9e52fa8-e0f7-4ea7-846e-79259bd7adc7.png)
+
+12.
+![Ekran görüntüsü 2023-01-31 014612](https://user-images.githubusercontent.com/109466550/215614765-9086ac36-49d2-4178-8ffe-76e474e4d5cd.png)
