@@ -16,7 +16,7 @@ simdi = datetime.datetime.now()
 d1 = tkinter.IntVar()
 
 def kaydet_fonk():
-    metin_dosyası = filedialog.askopenfile(initialdir="c:/", title="Dosya Metnini Aç", filetypes=(("Metin Dosyaları", "*.txt"))) #bir bak
+    metin_dosyası = filedialog.askopenfile(initialdir="c:/", title="Dosya Metnini Aç", filetypes=(("Metin Dosyaları", "*.txt")))
     metin_dosyası = open(metin_dosyası, "w")
     metin_dosyası.write(baslik_entry.get(1.0, "end") + yazar_entry.get(1.0, "end") + ozet_entry.get(1.0, "end"))
     kaydet_label = tkinter.Label(pencere, text=baslik_entry.get(1.0,"end") + kaydedildi)
