@@ -2,10 +2,10 @@ import tkinter
 import tkinter.messagebox
 
 def ekle():
-    entryisi = entry.get()
-    if entryisi != "":
-        listbox.insert(tkinter.END,entryisi)
-        entry.delete(0,tkinter.END)
+    giristenal = giris.get()
+    if giristenal != "":
+        listbox.insert(tkinter.END,giristenal)
+        giris.delete(0,tkinter.END)
     else:
         tkinter.messagebox.showinfo(title="", message="Bir şey yazmadın!")
 
@@ -21,14 +21,14 @@ pencere = tkinter.Tk()
 pencere.title("Yapılacaklar Listesi")
 pencere.geometry("350x320")
 
-frame = tkinter.Frame(pencere)
-frame.pack()
+cerceve = tkinter.Frame(pencere)
+cerceve.pack()
 
-listbox = tkinter.Listbox(frame,height=15,width=40,bg="black",fg="white")
+listbox = tkinter.Listbox(cerceve,height=15,width=40,bg="black",fg="white")
 listbox.pack(side=tkinter.LEFT)
 
-entry = tkinter.Entry(pencere,width=50,bg="white",fg="black")
-entry.pack()
+giris = tkinter.Entry(pencere,width=50,bg="white",fg="black")
+giris.pack()
 
 buton = tkinter.Button(pencere,text="Ekle",width=20,bg="black",fg="white",command=ekle)
 buton.pack(anchor=tkinter.CENTER)
