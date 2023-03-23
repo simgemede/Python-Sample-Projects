@@ -25,7 +25,7 @@ cerceve = tkinter.Frame(pencere)
 cerceve.pack()
 
 listbox = tkinter.Listbox(cerceve,height=15,width=40,bg="black",fg="white")
-listbox.pack(side=tkinter.LEFT)
+listbox.pack()
 
 giris = tkinter.Entry(pencere,width=50,bg="white",fg="black")
 giris.pack()
