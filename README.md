@@ -1,4 +1,4 @@
-# Tkinter-Projects
+# Python-Projects
 
 1.
 ![Ekran görüntüsü 2022-12-10 020026](https://user-images.githubusercontent.com/109466550/206809904-202b9582-93bb-44d6-823e-4329f8cfda21.png)
