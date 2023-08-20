@@ -24,8 +24,8 @@ video_capture = cv2.VideoCapture(video_source)
 frame = tk.Frame(window)
 frame.place(relx=0.5, rely=0.5, anchor=tk.CENTER)
 
-btn_snapshot = tk.Button(frame, text="Fotoğraf Çek", width=20, command=takePhoto)
-btn_snapshot.pack(padx=20, pady=10)
+btn_takePhoto = tk.Button(frame, text="Fotoğraf Çek", width=20, command=takePhoto)
+btn_takePhoto.pack(padx=20, pady=10)
 
 btn_exit = tk.Button(frame, text="Çıkış", width=20, command=exitApp)
 btn_exit.pack(padx=20, pady=10)
