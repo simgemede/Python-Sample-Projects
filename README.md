@@ -39,3 +39,5 @@
 13.
 ![Ekran görüntüsü 2023-02-10 221102](https://user-images.githubusercontent.com/109466550/218177676-c3f48403-b513-407b-b1e4-13862c7ea622.jpg)
 
+14.
+![Ekran görüntüsü 2023-08-20 164827](https://github.com/simgemede/Python-Projects/assets/109466550/49798ae6-d3a7-4f48-85d0-51c5db128ef7)
